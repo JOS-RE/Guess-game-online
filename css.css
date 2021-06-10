@@ -8,7 +8,7 @@ div {
 
 .button {
     background-color: #4CAF50;
-    border: none;
+    border: 2px;
     color: white;
     padding: 20px 45px;
     text-align: center;
@@ -41,4 +41,27 @@ div {
 .buttonblk:hover {
     background-color: #ff0000;
     color: white;
+}
+
+.buttongame1 {
+    background-color: rgb(216, 216, 216);
+    padding: 10px 10px;
+    font-size: 20px;
+    color: rgb(66, 66, 66);
+}
+
+.buttongame1:hover {
+    background-color: rgb(100, 100, 100);
+    color: white;
+}
+
+.buttongame2 {
+    border: rgb(100, 100, 100);
+    background-color: rgb(100, 100, 100);
+    color: rgb(255, 255, 255);
+}
+
+.buttongame2:hover {
+    background-color: rgb(255, 202, 202);
+    color: rgb(71, 71, 71);
 }

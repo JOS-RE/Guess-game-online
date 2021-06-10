@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css.css">
 
     <title>game</title>
 </head>
@@ -32,17 +33,25 @@
 
             // check if the guess is correct
             if (number == random) {
-                alert('You huessed the correct number !');
+                alert('Hurray ! You guessed the correct number .');
             }
         }
     </script>
+
+    <a href="./index.html">
+        <button class="button buttongame1">Back</button>
+    </a>
     <center>
+
+
         <h1 style="font-weight: 200;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; margin-top: 15%; font: size 800px; color: rgb(87, 95, 93);"><br> Guess the number!</h1>
 
-        <a href="./index.html">
-            <button type="reset" class="btn btn-default;" style="background-color: rgb(255, 255, 255);border-color: teal;color: rgb(0, 0, 0); width: 100px; height: 50px; margin-left: 5px; margin-right: 5px;">back</button>
+
+
+        <a href="./game.html">
+            <button class="button buttongame2" onclick="guessNumber()">Play</button>
         </a>
-        <button type="submit" class="btn btn-default;" onclick="guessNumber()" style="background-color: rgb(49, 49, 49);color: rgb(255, 255, 255); width: 100px; height: 50px; margin-left: 5px; margin-right: 5px;">Play</button>
+
 
     </center>
 
