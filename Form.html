@@ -64,8 +64,13 @@
                 <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd" style="max-width: 15cm;">
             </div>
             <button type="reset" class="btn btn-default;" style="background-color: rgb(255, 255, 255);border-color: teal;color: rgb(0, 0, 0);">reset</button>
-            <button type="submit" class="btn btn-default;" style="background-color: rgb(49, 49, 49);color: rgb(255, 255, 255);">Submit</button>
 
+            <button type="submit" class="btn btn-default;" onclick="myclickFunction()" style="background-color: rgb(49, 49, 49);color: rgb(255, 255, 255);">Submit</button>
+            <script>
+                function myclickFunction() {
+                    alert("You have filled the form.");
+                }
+            </script>
 
             <br><br><br><br>
         </form>
