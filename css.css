@@ -44,10 +44,10 @@ div {
 }
 
 .buttongame1 {
-    background-color: rgb(216, 216, 216);
+    background-color: rgba(231, 231, 231, 0.582);
     padding: 10px 10px;
     font-size: 20px;
-    color: rgb(66, 66, 66);
+    color: rgb(163, 163, 163);
 }
 
 .buttongame1:hover {
